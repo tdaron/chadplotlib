@@ -1,6 +1,6 @@
 [project]
 name = "chadplotlib"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Théo Daron", email="theo@daron.be" },
   { name="Maxime Deboeck", email="no-mail@plz.be"}
