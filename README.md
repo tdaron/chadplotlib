@@ -9,6 +9,9 @@ import chadplotlib
 chadplotlib.makeMeAChad()
 ```
 
+Then just use matplotlib as you would.
+
+
 ## Compiling from scratch 
 Building:
 
