@@ -13,8 +13,7 @@ def makeMeAChad():
     font_manager.fontManager.addfont(path=path)
     mpl.rcParams['font.family'] = 'Montserrat'
     mpl.rcParams['font.weight'] = 800
-    plt.rcParams['figure.facecolor'] = '#f0f0f0'
-    plt.rcParams['axes.facecolor'] = '#f0f0f0'
+    # plt.rcParams['axes.facecolor'] = '#f0f0f0'
     plt.rcParams.update({'font.size': 13})
     print('chad setup ok')
 
