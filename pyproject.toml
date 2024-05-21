@@ -1,0 +1,23 @@
+[project]
+name = "chadplotlib"
+version = "0.0.1"
+authors = [
+  { name="Théo Daron", email="theo@daron.be" },
+  { name="Maxime Deboeck", email="no-mail@plz.be"}
+]
+description = "Styling options for matplotlib."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tdaron/chadplotlib"
+Issues = "https://github.com/tdaron/chadplotlib/issues"
+
+[build-system]
+requires = ["hatchling","matplotlib"]
+build-backend = "hatchling.build"
