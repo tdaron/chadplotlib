@@ -12,7 +12,8 @@ chadplotlib.makeMeAChad()
 Then just use matplotlib as you would.
 
 
-## Compiling from scratch 
+## Packaging from source code
+
 Building:
 
 `python3 -m build`
