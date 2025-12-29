@@ -4,7 +4,7 @@ import matplotlib.font_manager as font_manager
 import importlib
 
 def makeMeAChad():
-    font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
+    # font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
     path = importlib.resources.files(__name__).joinpath("fonts/Montserrat-Bold.ttf")
     font_manager.fontManager.addfont(path=path)
     path = importlib.resources.files(__name__).joinpath("fonts/Montserrat-Medium.ttf")
