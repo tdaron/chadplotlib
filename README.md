@@ -12,11 +12,14 @@ chadplotlib.makeMeAChad()
 Then just use matplotlib as you would.
 
 
-## Packaging from source code
+## Packaging from source code using uv
 
 Building:
 
-`python3 -m build`
+`uv build`
+
+Publishing:
+`uv publish`
 
 Installing:
 
